@@ -6,7 +6,7 @@
 
 - [项目使命](../introduction/mission)
 - [系统总览](../architecture/system-overview)
-- [学院路径](../academy/learning-path)
+- [学院路径](../guides/learning-path)
 
 ## 基础组合
 

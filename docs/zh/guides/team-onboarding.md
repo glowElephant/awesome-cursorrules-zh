@@ -13,8 +13,8 @@
 ## 2. 选择起始阅读面
 
 - **试点评估**：从 [项目使命](../introduction/mission) 与 [规则组合模式](../rules/composition-patterns) 开始
-- **团队落地**：从 [学院路径](../academy/learning-path) 与 [最佳实践](../best-practices) 开始
-- **仓库维护**：从 [维护者课程](../academy/maintainer-curriculum) 与 [规则模板指南](./rule-template) 开始
+- **团队落地**：从 [学院路径](../guides/learning-path) 与 [最佳实践](../best-practices) 开始
+- **仓库维护**：从 [维护者课程](../guides/maintainer-curriculum) 与 [规则模板指南](./rule-template) 开始
 
 ## 3. 形成最低可执行基线
 
@@ -30,5 +30,5 @@
 
 接入一段时间后，应该回看两类页面：
 
-- [研究引用](../research/references)：确认这套结构是否仍能支持新的叙事目标
+- [研究引用](../reference/references)：确认这套结构是否仍能支持新的叙事目标
 - [规则索引](../rules/)：确认当前组合是否需要升级为项目自己的 `.cursorrules`

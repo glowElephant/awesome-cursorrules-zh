@@ -27,9 +27,9 @@ flowchart LR
 
 ## How to use it
 
-1. Confirm the value case in the [Decision Brief](../whitepaper/decision-brief).
+1. Confirm the value case in the [Decision Brief](../reference/decision-brief).
 2. Read the [Information Graph](./information-graph) to see how pages connect.
-3. Map the [Adoption Path](../playbook/adoption-path) to your own team.
+3. Map the [Adoption Path](../guides/adoption-path) to your own team.
 4. Use the [Rules Evidence Library](../rules/) as validation, not as the first stop.
 
 <SectionCallout

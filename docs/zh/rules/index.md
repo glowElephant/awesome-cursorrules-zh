@@ -42,8 +42,8 @@ editLink: false
 ## 证据入口
 
 - [规则组合模式](./composition-patterns.md)：先判断基础组合、升级组合与治理升级信号。
-- [学院路径](../academy/learning-path.md)：回到角色与阶段视角，确认当前该启用哪一层约束。
-- [研究引用](../research/references.md)：查看方法论与相关项目，理解规则索引为什么被放在证据层。
+- [学院路径](../guides/learning-path.md)：回到角色与阶段视角，确认当前该启用哪一层约束。
+- [研究引用](../reference/references.md)：查看方法论与相关项目，理解规则索引为什么被放在证据层。
 
 ## 分类索引
 

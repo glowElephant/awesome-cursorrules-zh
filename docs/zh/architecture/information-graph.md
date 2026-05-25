@@ -41,14 +41,14 @@ flowchart LR
 
 最有效的使用方式不是随意跳转，而是按图谱顺序推进：
 
-1. 从 [决策者摘要](../whitepaper/decision-brief) 与 [项目总览](../whitepaper/overview) 开始，先完成价值判断。
+1. 从 [决策者摘要](../reference/decision-brief) 与 [项目总览](../reference/overview) 开始，先完成价值判断。
 2. 继续阅读 [站点蓝图](./blueprint)，理解内容分层。
-3. 再进入 [采用路径](../playbook/adoption-path) 与 [角色路径](../playbook/role-paths)，选择行动方案。
+3. 再进入 [采用路径](../guides/adoption-path) 与 [角色路径](../guides/role-paths)，选择行动方案。
 4. 最后使用 [规则证据库](../rules/) 和资源网络验证、扩展你的方案。
 
 <SectionCallout
   title="使用建议"
   body="如果你正在做团队导入，请把这张图当作沟通脚本：先讲价值，再讲结构，再讲行动，最后再展示规则样本。"
-  href="../playbook/role-paths"
+  href="../guides/role-paths"
   label="查看角色路径"
 />

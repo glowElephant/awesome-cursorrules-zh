@@ -23,5 +23,5 @@
 这个站点默认你先读“为什么”，再读“如何组织”，最后才进入“具体规则是什么”。
 
 - 如果你只想验证项目成熟度，请继续看 [系统总览](../architecture/system-overview)。
-- 如果你准备推动团队采用，请继续看 [学院路径](../academy/learning-path)。
-- 如果你需要方法论背书，请继续看 [研究引用](../research/references)。
+- 如果你准备推动团队采用，请继续看 [学院路径](../guides/learning-path)。
+- 如果你需要方法论背书，请继续看 [研究引用](../reference/references)。

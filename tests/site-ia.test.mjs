@@ -52,14 +52,14 @@ test('generated site facts include whitepaper-ready distribution and quality sig
   }
 });
 
-test('shared atlas defines the whitepaper reading path for both locales', () => {
+test('shared atlas defines the simplified reading path for both locales', () => {
   const atlas = read('docs/.vitepress/site/atlas.ts');
 
-  for (const label of ['导读', '系统架构', '算法机制', '性能白皮书', '参考与演进', '规则证据']) {
+  for (const label of ['导读', '系统架构', '算法机制', '参考文档', '规则证据']) {
     assert.match(atlas, new RegExp(`text: '${label}'`));
   }
 
-  for (const label of ['Introduction', 'Architecture', 'Algorithms', 'Performance', 'References', 'Evidence']) {
+  for (const label of ['Introduction', 'Architecture', 'Algorithms', 'Reference', 'Evidence']) {
     assert.match(atlas, new RegExp(`text: '${label}'`));
   }
 
@@ -67,21 +67,10 @@ test('shared atlas defines the whitepaper reading path for both locales', () => 
     '/zh/introduction/mission',
     '/zh/architecture/system-overview',
     '/zh/algorithms/overview',
-    '/zh/whitepaper/performance',
+    '/zh/reference/performance',
     '/zh/rules/',
-    '/zh/research/references',
-    '/en/introduction/mission',
-    '/en/architecture/system-overview',
-    '/en/algorithms/overview',
-    '/en/whitepaper/performance',
-    '/en/rules/',
-    '/en/research/references',
   ]) {
     assert.match(atlas, new RegExp(route.replaceAll('/', '\\/')));
-  }
-
-  for (const legacy of ['学院路径', '实施指南', 'Academy', 'Guides', 'Project Thesis', 'Adoption Paths', 'Resource Network']) {
-    assert.doesNotMatch(atlas, new RegExp(`text: '${legacy}'`));
   }
 });
 
@@ -90,11 +79,11 @@ test('new Chinese IA entry pages exist', () => {
     'docs/zh/introduction/mission.md',
     'docs/zh/introduction/reader-map.md',
     'docs/zh/algorithms/overview.md',
-    'docs/zh/academy/learning-path.md',
-    'docs/zh/academy/maintainer-curriculum.md',
+    'docs/zh/guides/learning-path.md',
+    'docs/zh/guides/maintainer-curriculum.md',
     'docs/zh/architecture/system-overview.md',
     'docs/zh/guides/team-onboarding.md',
-    'docs/zh/research/references.md',
+    'docs/zh/reference/references.md',
     'docs/zh/rules/composition-patterns.md',
   ]) {
     assert.equal(exists(file), true, `${file} should exist`);
@@ -116,7 +105,7 @@ test('composition patterns page links back to the new narrative context pages', 
 
   assert.match(page, /\[项目使命\]\(\.\.\/introduction\/mission\)/);
   assert.match(page, /\[系统总览\]\(\.\.\/architecture\/system-overview\)/);
-  assert.match(page, /\[学院路径\]\(\.\.\/academy\/learning-path\)/);
+  assert.match(page, /\[学院路径\]\(\.\.\/guides\/learning-path\)/);
 });
 
 test('zh homepage reads like a technical thesis with topology, pipeline, and dossier sections', () => {
@@ -136,11 +125,11 @@ test('new English IA entry pages exist', () => {
     'docs/en/introduction/mission.md',
     'docs/en/introduction/reader-map.md',
     'docs/en/algorithms/overview.md',
-    'docs/en/academy/learning-path.md',
-    'docs/en/academy/maintainer-curriculum.md',
+    'docs/en/guides/learning-path.md',
+    'docs/en/guides/maintainer-curriculum.md',
     'docs/en/architecture/system-overview.md',
     'docs/en/guides/team-onboarding.md',
-    'docs/en/research/references.md',
+    'docs/en/reference/references.md',
     'docs/en/rules/composition-patterns.md',
   ]) {
     assert.equal(exists(file), true, `${file} should exist`);
@@ -164,14 +153,14 @@ test('architecture and algorithm chapters explain the topology and orchestration
 
 test('performance and references chapters describe maintainability, competitors, and evolution', () => {
   const zhBundle = [
-    read('docs/zh/whitepaper/performance.md'),
-    read('docs/zh/research/references.md'),
-    read('docs/zh/resources/extended-reading.md'),
+    read('docs/zh/reference/performance.md'),
+    read('docs/zh/reference/references.md'),
+    read('docs/zh/reference/extended-reading.md'),
   ].join('\n');
   const enBundle = [
-    read('docs/en/whitepaper/performance.md'),
-    read('docs/en/research/references.md'),
-    read('docs/en/resources/extended-reading.md'),
+    read('docs/en/reference/performance.md'),
+    read('docs/en/reference/references.md'),
+    read('docs/en/reference/extended-reading.md'),
   ].join('\n');
 
   for (const phrase of ['维护性', '生成链路', '竞品', '演进问题']) {
@@ -204,7 +193,7 @@ test('English rules framing treats rules as the evidence layer in the new IA', (
 
   assert.match(compositionPatterns, /\[Project Mission\]\(\.\.\/introduction\/mission\)/);
   assert.match(compositionPatterns, /\[System Overview\]\(\.\.\/architecture\/system-overview\)/);
-  assert.match(compositionPatterns, /\[Academy Path\]\(\.\.\/academy\/learning-path\)/);
+  assert.match(compositionPatterns, /\[Academy Path\]\(\.\.\/guides\/learning-path\)/);
 });
 
 test('theme index registers the whitepaper presentation components and figure tokens', () => {

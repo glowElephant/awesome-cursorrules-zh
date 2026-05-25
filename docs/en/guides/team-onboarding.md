@@ -13,8 +13,8 @@ Before you adopt the project, answer three questions:
 ## 2. Pick the right entry surface
 
 - **Pilot evaluation**: start with the [Project Mission](../introduction/mission) and [Composition Patterns](../rules/composition-patterns)
-- **Team rollout**: start with the [Academy Path](../academy/learning-path) and [Best Practices](../best-practices)
-- **Repository maintenance**: start with the [Maintainer Curriculum](../academy/maintainer-curriculum) and [Rule Template Guide](./rule-template)
+- **Team rollout**: start with the [Academy Path](../guides/learning-path) and [Best Practices](../best-practices)
+- **Repository maintenance**: start with the [Maintainer Curriculum](../guides/maintainer-curriculum) and [Rule Template Guide](./rule-template)
 
 ## 3. Define a minimal baseline
 
@@ -30,5 +30,5 @@ That is enough to create a team baseline without front-loading too much complexi
 
 After the first adoption cycle, come back to:
 
-- [Research References](../research/references)
+- [Research References](../reference/references)
 - [Rules Index](../rules/)

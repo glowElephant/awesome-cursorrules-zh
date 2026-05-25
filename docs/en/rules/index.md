@@ -43,8 +43,8 @@ Use it to validate rule combinations, samples, and upgrade path signals after th
 ## Evidence entry points
 
 - [Composition Patterns](./composition-patterns): decide whether you need a base pattern, an expansion pattern, or a governance upgrade.
-- [Academy Path](../academy/learning-path): reconnect the evidence library to role-based learning paths.
-- [Research References](../research/references): see why the evidence layer sits behind the wider shell.
+- [Academy Path](../guides/learning-path): reconnect the evidence library to role-based learning paths.
+- [Research References](../reference/references): see why the evidence layer sits behind the wider shell.
 
 ## Category index
 

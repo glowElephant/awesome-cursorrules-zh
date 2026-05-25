@@ -6,7 +6,7 @@ This page helps you decide which rule combination to validate before browsing ca
 
 - [Project Mission](../introduction/mission)
 - [System Overview](../architecture/system-overview)
-- [Academy Path](../academy/learning-path)
+- [Academy Path](../guides/learning-path)
 
 ## Base pattern
 
