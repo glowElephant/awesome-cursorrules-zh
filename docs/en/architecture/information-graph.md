@@ -32,14 +32,14 @@ flowchart LR
 
 ## Recommended use
 
-1. Start with the [Decision Brief](../whitepaper/decision-brief) and [Project Overview](../whitepaper/overview).
+1. Start with the [Decision Brief](../reference/decision-brief) and [Project Overview](../reference/overview).
 2. Use the [Site Blueprint](./blueprint) to understand boundaries.
-3. Continue to the [Adoption Path](../playbook/adoption-path) and [Role Paths](../playbook/role-paths).
-4. Then use the [Rules Evidence Library](../rules/) and [Ecosystem](../resources/ecosystem).
+3. Continue to the [Adoption Path](../guides/adoption-path) and [Role Paths](../guides/role-paths).
+4. Then use the [Rules Evidence Library](../rules/) and [Ecosystem](../reference/ecosystem).
 
 <SectionCallout
   title="Communication tip"
   body="When presenting the project to a team, explain value first, structure second, action third, and only then show rule samples."
-  href="../playbook/role-paths"
+  href="../guides/role-paths"
   label="Continue to role paths"
 />

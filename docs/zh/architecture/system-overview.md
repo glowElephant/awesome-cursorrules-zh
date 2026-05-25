@@ -68,5 +68,5 @@
 ## 推荐继续阅读
 
 1. [算法机制总览](../algorithms/overview)
-2. [性能白皮书](../whitepaper/performance)
-3. [参考与演进](../research/references)
+2. [性能白皮书](../reference/performance)
+3. [参考与演进](../reference/references)

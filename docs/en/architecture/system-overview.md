@@ -64,5 +64,5 @@ Instead of stopping at a category index, the site documents the rule orchestrati
 ## Continue reading
 
 1. [Algorithms Overview](../algorithms/overview)
-2. [Performance Analysis](../whitepaper/performance)
-3. [References](../research/references)
+2. [Performance Analysis](../reference/performance)
+3. [References](../reference/references)

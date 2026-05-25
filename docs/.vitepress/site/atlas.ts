@@ -113,8 +113,7 @@ export const zhNav = [
   { text: '导读', link: '/zh/introduction/mission', activeMatch: '/zh/introduction/' },
   { text: '系统架构', link: '/zh/architecture/system-overview', activeMatch: '/zh/architecture/' },
   { text: '算法机制', link: '/zh/algorithms/overview', activeMatch: '/zh/algorithms/' },
-  { text: '性能白皮书', link: '/zh/whitepaper/performance', activeMatch: '/zh/whitepaper/' },
-  { text: '参考与演进', link: '/zh/research/references', activeMatch: '/zh/research/|/zh/resources/' },
+  { text: '参考文档', link: '/zh/reference/performance', activeMatch: '/zh/reference/' },
   { text: '规则证据', link: '/zh/rules/', activeMatch: '/zh/rules/' },
 ];
 
@@ -122,8 +121,7 @@ export const enNav = [
   { text: 'Introduction', link: '/en/introduction/mission', activeMatch: '/en/introduction/' },
   { text: 'Architecture', link: '/en/architecture/system-overview', activeMatch: '/en/architecture/' },
   { text: 'Algorithms', link: '/en/algorithms/overview', activeMatch: '/en/algorithms/' },
-  { text: 'Performance', link: '/en/whitepaper/performance', activeMatch: '/en/whitepaper/' },
-  { text: 'References', link: '/en/research/references', activeMatch: '/en/research/|/en/resources/' },
+  { text: 'Reference', link: '/en/reference/performance', activeMatch: '/en/reference/' },
   { text: 'Evidence', link: '/en/rules/', activeMatch: '/en/rules/' },
 ];
 
@@ -134,7 +132,7 @@ export const zhSidebar = {
       items: [
         { text: '项目使命', link: '/zh/introduction/mission' },
         { text: '读者地图', link: '/zh/introduction/reader-map' },
-        { text: '评审路径', link: '/zh/academy/learning-path' },
+        { text: '评审路径', link: '/zh/guides/learning-path' },
       ],
     },
   ],
@@ -159,59 +157,27 @@ export const zhSidebar = {
       ],
     },
   ],
-  '/zh/whitepaper/': [
+  '/zh/reference/': [
     {
-      text: '性能白皮书',
+      text: '参考文档',
       items: [
-        { text: '白皮书总览', link: '/zh/whitepaper/overview' },
-        { text: '性能分析', link: '/zh/whitepaper/performance' },
-        { text: '设计决策', link: '/zh/whitepaper/design-decisions' },
-        { text: '决策摘要', link: '/zh/whitepaper/decision-brief' },
-      ],
-    },
-  ],
-  '/zh/academy/': [
-    {
-      text: '导读补充',
-      items: [
-        { text: '评审路径', link: '/zh/academy/learning-path' },
-        { text: '维护者课程', link: '/zh/academy/maintainer-curriculum' },
-        { text: '企业案例研究', link: '/zh/academy/case-studies/enterprise-adoption' },
+        { text: '性能分析', link: '/zh/reference/performance' },
+        { text: '设计决策', link: '/zh/reference/design-decisions' },
+        { text: '参考文献', link: '/zh/reference/references' },
+        { text: '相关项目', link: '/zh/reference/ecosystem' },
       ],
     },
   ],
   '/zh/guides/': [
     {
-      text: '证据库使用',
+      text: '使用指南',
       items: [
         { text: '团队接入', link: '/zh/guides/team-onboarding' },
-        { text: '规则模板指南', link: '/zh/guides/rule-template' },
+        { text: '规则模板', link: '/zh/guides/rule-template' },
+        { text: '评审路径', link: '/zh/guides/learning-path' },
         { text: '快速开始', link: '/zh/getting-started' },
         { text: '最佳实践', link: '/zh/best-practices' },
         { text: '故障排除', link: '/zh/troubleshooting' },
-      ],
-    },
-  ],
-  '/zh/research/': [
-    {
-      text: '参考与演进',
-      items: [
-        { text: '参考文献', link: '/zh/research/references' },
-        { text: 'Prompt 工程解读', link: '/zh/research/papers/prompt-engineering' },
-        { text: '相关开源项目探究', link: '/zh/resources/ecosystem' },
-        { text: '演进思考', link: '/zh/resources/extended-reading' },
-        { text: '更新日志', link: '/zh/changelog' },
-        { text: '贡献指南', link: '/zh/contributing' },
-      ],
-    },
-  ],
-  '/zh/resources/': [
-    {
-      text: '参考与演进',
-      items: [
-        { text: '相关开源项目探究', link: '/zh/resources/ecosystem' },
-        { text: '演进思考', link: '/zh/resources/extended-reading' },
-        { text: '参考文献', link: '/zh/research/references' },
       ],
     },
   ],
@@ -233,11 +199,8 @@ export const zhSidebar = {
         { text: '项目使命', link: '/zh/introduction/mission' },
         { text: '系统架构', link: '/zh/architecture/system-overview' },
         { text: '算法机制', link: '/zh/algorithms/overview' },
-        { text: '性能白皮书', link: '/zh/whitepaper/performance' },
-        { text: '参考与演进', link: '/zh/research/references' },
+        { text: '参考文档', link: '/zh/reference/performance' },
         { text: '规则证据', link: '/zh/rules/' },
-        { text: '评审路径', link: '/zh/academy/learning-path' },
-        { text: '系统总览', link: '/zh/architecture/system-overview' },
         { text: '团队接入', link: '/zh/guides/team-onboarding' },
       ],
     },
@@ -251,7 +214,7 @@ export const enSidebar = {
       items: [
         { text: 'Project Mission', link: '/en/introduction/mission' },
         { text: 'Reader Map', link: '/en/introduction/reader-map' },
-        { text: 'Review Paths', link: '/en/academy/learning-path' },
+        { text: 'Review Paths', link: '/en/guides/learning-path' },
       ],
     },
   ],
@@ -276,59 +239,27 @@ export const enSidebar = {
       ],
     },
   ],
-  '/en/whitepaper/': [
+  '/en/reference/': [
     {
-      text: 'Performance',
+      text: 'Reference',
       items: [
-        { text: 'Whitepaper Overview', link: '/en/whitepaper/overview' },
-        { text: 'Performance Analysis', link: '/en/whitepaper/performance' },
-        { text: 'Design Decisions', link: '/en/whitepaper/design-decisions' },
-        { text: 'Decision Brief', link: '/en/whitepaper/decision-brief' },
-      ],
-    },
-  ],
-  '/en/academy/': [
-    {
-      text: 'Orientation',
-      items: [
-        { text: 'Review Paths', link: '/en/academy/learning-path' },
-        { text: 'Maintainer Curriculum', link: '/en/academy/maintainer-curriculum' },
-        { text: 'Enterprise Case Study', link: '/en/academy/case-studies/enterprise-adoption' },
+        { text: 'Performance', link: '/en/reference/performance' },
+        { text: 'Design Decisions', link: '/en/reference/design-decisions' },
+        { text: 'References', link: '/en/reference/references' },
+        { text: 'Ecosystem', link: '/en/reference/ecosystem' },
       ],
     },
   ],
   '/en/guides/': [
     {
-      text: 'Evidence Usage',
+      text: 'Guides',
       items: [
         { text: 'Team Onboarding', link: '/en/guides/team-onboarding' },
-        { text: 'Rule Template Guide', link: '/en/guides/rule-template' },
+        { text: 'Rule Template', link: '/en/guides/rule-template' },
+        { text: 'Review Paths', link: '/en/guides/learning-path' },
         { text: 'Getting Started', link: '/en/getting-started' },
         { text: 'Best Practices', link: '/en/best-practices' },
         { text: 'Troubleshooting', link: '/en/troubleshooting' },
-      ],
-    },
-  ],
-  '/en/research/': [
-    {
-      text: 'References',
-      items: [
-        { text: 'References', link: '/en/research/references' },
-        { text: 'Prompt Engineering Deep Dive', link: '/en/research/papers/prompt-engineering' },
-        { text: 'Open Source Survey', link: '/en/resources/ecosystem' },
-        { text: 'Evolution Notes', link: '/en/resources/extended-reading' },
-        { text: 'Changelog', link: '/en/changelog' },
-        { text: 'Contributing', link: '/en/contributing' },
-      ],
-    },
-  ],
-  '/en/resources/': [
-    {
-      text: 'References',
-      items: [
-        { text: 'Open Source Survey', link: '/en/resources/ecosystem' },
-        { text: 'Evolution Notes', link: '/en/resources/extended-reading' },
-        { text: 'References', link: '/en/research/references' },
       ],
     },
   ],
@@ -350,10 +281,8 @@ export const enSidebar = {
         { text: 'Project Mission', link: '/en/introduction/mission' },
         { text: 'System Overview', link: '/en/architecture/system-overview' },
         { text: 'Algorithms', link: '/en/algorithms/overview' },
-        { text: 'Performance', link: '/en/whitepaper/performance' },
-        { text: 'References', link: '/en/research/references' },
+        { text: 'Reference', link: '/en/reference/performance' },
         { text: 'Evidence', link: '/en/rules/' },
-        { text: 'Review Paths', link: '/en/academy/learning-path' },
         { text: 'Team Onboarding', link: '/en/guides/team-onboarding' },
       ],
     },

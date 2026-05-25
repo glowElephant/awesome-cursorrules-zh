@@ -6,9 +6,9 @@
 
 | 读者角色 | 第一站 | 第二站 | 第三站 | 目的 |
 | --- | --- | --- | --- | --- |
-| 面试官 / 审阅者 | [项目使命](./mission) | [系统总览](../architecture/system-overview) | [研究引用](../research/references) | 判断项目是否具备白皮书级表达与工程化深度 |
-| 架构师 | [系统总览](../architecture/system-overview) | [学院路径](../academy/learning-path) | [规则组合模式](../rules/composition-patterns) | 判断内容系统、主题层和证据层是否真正闭环 |
-| 维护者 | [维护者课程](../academy/maintainer-curriculum) | [团队接入](../guides/team-onboarding) | [规则索引](../rules/) | 明确新增内容、校验事实和发布流程的顺序 |
+| 面试官 / 审阅者 | [项目使命](./mission) | [系统总览](../architecture/system-overview) | [研究引用](../reference/references) | 判断项目是否具备白皮书级表达与工程化深度 |
+| 架构师 | [系统总览](../architecture/system-overview) | [学院路径](../guides/learning-path) | [规则组合模式](../rules/composition-patterns) | 判断内容系统、主题层和证据层是否真正闭环 |
+| 维护者 | [维护者课程](../guides/maintainer-curriculum) | [团队接入](../guides/team-onboarding) | [规则索引](../rules/) | 明确新增内容、校验事实和发布流程的顺序 |
 
 ## 如何使用这张地图
 

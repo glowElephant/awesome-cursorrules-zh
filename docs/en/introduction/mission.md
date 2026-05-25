@@ -21,5 +21,5 @@ The redesign reframes the project into three layers:
 ## Continue reading
 
 - Read the [System Overview](../architecture/system-overview)
-- Open the [Academy Path](../academy/learning-path)
-- Use the [Research References](../research/references) for methodological context
+- Open the [Academy Path](../guides/learning-path)
+- Use the [Research References](../reference/references) for methodological context

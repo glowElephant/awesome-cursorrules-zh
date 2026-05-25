@@ -36,9 +36,9 @@ flowchart LR
 
 如果你要用这套蓝图推动落地，建议按下面顺序执行：
 
-1. 先确认 [决策者摘要](../whitepaper/decision-brief) 的价值判断是否成立。
+1. 先确认 [决策者摘要](../reference/decision-brief) 的价值判断是否成立。
 2. 再用 [信息图谱](./information-graph) 检查内容域之间的关系是否清晰。
-3. 然后进入 [采用路径](../playbook/adoption-path)，把蓝图映射到团队动作。
+3. 然后进入 [采用路径](../guides/adoption-path)，把蓝图映射到团队动作。
 4. 最后把 [规则证据库](../rules/) 作为验证层，而不是首页主入口。
 
 <SectionCallout
