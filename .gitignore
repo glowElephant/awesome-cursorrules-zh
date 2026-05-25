@@ -31,5 +31,5 @@ temp/
 # Environment files (security)
 .env*
 
-# Claude Code CLI plans (project-local)
-~/
+# Claude Code local files
+.claude/plans/
