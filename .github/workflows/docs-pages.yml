@@ -2,7 +2,7 @@ name: Docs (GitHub Pages)
 
 on:
   push:
-    branches: [main, master]
+    branches: [main]
     paths:
       - 'docs/**'
       - '.github/workflows/docs-pages.yml'

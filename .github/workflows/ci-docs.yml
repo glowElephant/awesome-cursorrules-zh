@@ -7,7 +7,7 @@ on:
       - '.github/workflows/docs-pages.yml'
       - 'docs/**'
   push:
-    branches: [main, master]
+    branches: [main]
     paths:
       - '.github/workflows/ci-docs.yml'
       - '.github/workflows/docs-pages.yml'
